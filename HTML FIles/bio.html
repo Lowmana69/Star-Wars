@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../assets/css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <iframe
+      width="0"
+      height="0"
+      src="../assets/audio/Jabba the Hutt - Cantina Band.mp3"
+      frameborder="0"
+      allowfullscreen
+    ></iframe>
+    <title>Biography</title>
+  </head>
+  <body>
+    <header>
+      <div class="pos-f-t">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="bg-dark p-4">
+            <h5 class="text-white h4">Menu</h5>
+            <div class="row">
+              <div class="col-3">
+                <div
+                  class="nav flex-column nav-pills"
+                  id="v-pills-tab"
+                  role="tablist"
+                  aria-orientation="vertical"
+                >
+                  <a
+                    class="nav-link active"
+                    id="v-pills-home-tab"
+                    data-toggle="pill"
+                    href="index.html"
+                    role="tab"
+                    aria-controls="v-pills-home"
+                    aria-selected="true"
+                    >Home</a
+                  >
+                  <a
+                    class="nav-link"
+                    id="v-pills-profile-tab"
+                    data-toggle="pill"
+                    href="demo.html"
+                    role="tab"
+                    aria-controls="v-pills-demo"
+                    aria-selected="false"
+                    >Demo</a
+                  >
+                  <a
+                    class="nav-link"
+                    id="v-pills-messages-tab"
+                    data-toggle="pill"
+                    href="#"
+                    role="tab"
+                    aria-controls="v-pills-biography"
+                    aria-selected="false"
+                    >Biography</a
+                  >
+                </div>
+              </div>
+              <div class="col-9">
+                <div class="tab-content" id="v-pills-tabContent">
+                  <div
+                    class="tab-pane fade show active"
+                    id="v-pills-home"
+                    role="tabpanel"
+                    aria-labelledby="v-pills-home-tab"
+                  >
+                    Entering the galaxy called Home
+                  </div>
+                  <div
+                    class="tab-pane fade"
+                    id="v-pills-profile"
+                    role="tabpanel"
+                    aria-labelledby="v-pills-demo-tab"
+                  >
+                    A brief interactive Demo of the Star Wars RPG Game. Go ahead
+                    and give it a try. May the Force be wth You!
+                  </div>
+                  <div
+                    class="tab-pane fade"
+                    id="v-pills-messages"
+                    role="tabpanel"
+                    aria-labelledby="v-pills-biography-tab"
+                  >
+                    <p>
+                      Biography of the characters of the players in the RPG Game
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarToggleExternalContent"
+            aria-controls="navbarToggleExternalContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <div class="card-deck">
+      <div class="card">
+        <img
+          src="../assets/images/Characters/Admiral Akbar.jpg"
+          class="card-img-top"
+          alt="Admiral Ackbar"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Admiral Ackbar</h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-success"
+            data-toggle="modal"
+            data-target="#exampleModalCenter"
+          >
+            Profile
+          </button>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModalCenter"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="exampleModalCenterTitle"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalCenterTitle">
+                    Bio:
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  A veteran commander, Ackbar led the defense of his homeworld,
+                  Mon Cala, during the Clone Wars and then masterminded the
+                  rebel attack on the second Death Star at the Battle of Endor.
+                  Ackbar realized the rebels had been drawn into a trap at
+                  Endor, but adjusted, with his fleet buying valuable time for
+                  the attack to succeed. After the Battle of Endor, Ackbar
+                  became a Grand Admiral in the New Republic, winning many
+                  victories including the pivotal Battle of Jakku. He retired to
+                  Mon Cala, but was coaxed back into service with the Resistance
+                  by Leia Organa.
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card">
+        <img
+          src="../assets/images/Characters/Anakin Skywalker.jpg"
+          class="card-img-top"
+          alt="Anakin Skywalker"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Anakin Skywalker</h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-success"
+            data-toggle="modal"
+            data-target="#exampleModalCenter"
+          >
+            Profile
+          </button>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModalCenter"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="exampleModalCenterTitle"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalCenterTitle">
+                    Bio:
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  Discovered as a slave on Tatooine by Qui-Gon Jinn and Obi-Wan
+                  Kenobi, Anakin Skywalker had the potential to become one of
+                  the most powerful Jedi ever, and was believed by some to be
+                  the prophesied Chosen One who would bring balance to the
+                  Force. A hero of the Clone Wars, Anakin was caring and
+                  compassionate, but also had a fear of loss that would prove to
+                  be his downfall.
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card">
+        <img
+          src="../assets/images/Characters/Chewbacca.png"
+          class="card-img-top"
+          alt="Chewbacca"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Chewbacca</h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-success"
+            data-toggle="modal"
+            data-target="#exampleModalCenter"
+          >
+            Profile
+          </button>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModalCenter"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="exampleModalCenterTitle"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalCenterTitle">
+                    Bio:
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  During his long life Chewbacca has been many things: Wookiee
+                  warrior, ace smuggler and rebel hero. Chewie fought with the
+                  Republic on Kashyyyk during the Clone Wars, then befriended
+                  Han Solo while in Imperial captivity on Mimban. After
+                  adventures on Vandor and Kessel, he became Han’s co-pilot
+                  aboard the Millennium Falcon, and eventually helped the
+                  Alliance restore freedom to the galaxy. Known for his short
+                  temper and accuracy with a bowcaster, Chewie also had a big
+                  heart – and unflagging loyalty to his friends. He stuck with
+                  Han through years of turmoil, and flew the Falcon alongside
+                  Rey after the Corellian’s death.
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="card-deck">
+      <div class="card">
+        <img
+          src="../assets/images/Characters/Count Dooku.png"
+          class="card-img-top"
+          alt="Count Dooku"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Count Dooku</h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-danger"
+            data-toggle="modal"
+            data-target="#exampleModalCenter"
+          >
+            Profile
+          </button>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModalCenter"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="exampleModalCenterTitle"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalCenterTitle">
+                    Bio:
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  Count Dooku was a menacing Sith Lord and central figure in the
+                  Clone Wars. Once a Jedi -- trained by Yoda -- he became
+                  disillusioned with the Jedi Order and thirsted for greater
+                  power. Dooku voluntarily left the light side behind and became
+                  Darth Sidious’ dark side disciple, taking the secret name
+                  Darth Tyranus and leading the Separatist army. Dooku advanced
+                  Sidious’s secret plot to take over the galaxy, but forgot that
+                  betrayal is the nature of the Sith.
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card">
+        <img
+          src="../assets/images/Characters/Darth Vader.png"
+          class="card-img-top"
+          alt="Darth Vader"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Darth Vader</h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-danger"
+            data-toggle="modal"
+            data-target="#exampleModalCenter"
+          >
+            Profile
+          </button>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModalCenter"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="exampleModalCenterTitle"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalCenterTitle">
+                    Bio:
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  Once a heroic Jedi Knight, Darth Vader was seduced by the dark
+                  side of the Force, became a Sith Lord, and led the Empire’s
+                  eradication of the Jedi Order. He remained in service of the
+                  Emperor -- the evil Darth Sidious -- for decades, enforcing
+                  his Master’s will and seeking to crush the fledgling Rebel
+                  Alliance. But there was still good in him…
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card">
+        <img
+          src="../assets/images/Characters/Emperor Palpatine.jpg"
+          class="card-img-top"
+          alt="Empeoror Palpatine / Darth Sidious"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Emperor Palpatine / Darth Sidious</h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-danger"
+            data-toggle="modal"
+            data-target="#exampleModalCenter"
+          >
+            Profile
+          </button>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModalCenter"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="exampleModalCenterTitle"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalCenterTitle">
+                    Bio:
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  Scheming, powerful, and evil to the core, Darth Sidious
+                  restored the Sith and destroyed the Jedi Order. Living a
+                  double life, Sidious was in fact Palpatine, a Naboo Senator
+                  and phantom menace. He slowly manipulated the political system
+                  of the Galactic Republic until he was named Supreme Chancellor
+                  -- and eventually Emperor -- ruling the galaxy through fear
+                  and tyranny.
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="card-deck">
+      <div class="card">
+        <img
+          src="../assets/images/Characters/Han Solo.jpg"
+          class="card-img-top"
+          alt="Han Solo"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Han Solo</h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-success"
+            data-toggle="modal"
+            data-target="#exampleModalCenter"
+          >
+            Profile
+          </button>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModalCenter"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="exampleModalCenterTitle"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalCenterTitle">
+                    Bio:
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  Han Solo rose from an impoverished childhood on the mean
+                  streets of Corellia to become one of the heroes of the Rebel
+                  Alliance. As captain of the Millennium Falcon, Han and his
+                  co-pilot Chewbacca came to believe in the cause of galactic
+                  freedom, joining Luke Skywalker and Princess Leia Organa in
+                  the fight against the Empire. After the Battle of Endor, Han
+                  faced difficult times in a chaotic galaxy, leading to a
+                  shattering confrontation with his estranged son Ben.
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card">
+        <img
+          src="../assets/images/Characters/Luke Skywalker.jpg"
+          class="card-img-top"
+          alt="Luke Skywalker"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Luke Skywalker</h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-success"
+            data-toggle="modal"
+            data-target="#exampleModalCenter"
+          >
+            Profile
+          </button>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModalCenter"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="exampleModalCenterTitle"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalCenterTitle">
+                    Bio:
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  Luke Skywalker was a Tatooine farmboy who rose from humble
+                  beginnings to become one of the greatest Jedi the galaxy has
+                  ever known. Along with his friends Princess Leia and Han Solo,
+                  Luke battled the evil Empire, discovered the truth of his
+                  parentage, and ended the tyranny of the Sith. A generation
+                  later, the location of the famed Jedi master was one of the
+                  galaxy’s greatest mysteries. Haunted by Ben Solo’s fall to
+                  evil and convinced the Jedi had to end, Luke sought exile on a
+                  distant world, ignoring the galaxy’s pleas for help. But his
+                  solitude would be interrupted – and Luke Skywalker had one
+                  final, momentous role to play in the struggle between good and
+                  evil.
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card">
+        <img
+          src="../assets/images/Characters/Mace Windu.jpg"
+          class="card-img-top"
+          alt="Mace Windu"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Mace Windu</h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-success"
+            data-toggle="modal"
+            data-target="#exampleModalCenter"
+          >
+            Profile
+          </button>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModalCenter"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="exampleModalCenterTitle"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalCenterTitle">
+                    Modal title
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  A grim Jedi Master with an amethyst-bladed lightsaber, Mace
+                  Windu was the champion of the Jedi Order, with little
+                  tolerance for the failings of the Senate, the arguments of
+                  politicians, or the opinions of rebellious Jedi. As the Clone
+                  Wars intensified, Mace sensed the dark side of the Force at
+                  work, and knew the Jedi's enemies were plotting to destroy the
+                  Order and end its stewardship of the galaxy.
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="card-deck">
+      <div class="card">
+        <img
+          src="../assets/images/Characters/Master Yoda.jpg"
+          class="card-img-top"
+          alt="Master Yoda"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Master Yoda</h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-success"
+            data-toggle="modal"
+            data-target="#exampleModalCenter"
+          >
+            Profile
+          </button>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModalCenter"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="exampleModalCenterTitle"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalCenterTitle">
+                    Bio:
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  Yoda was a legendary Jedi Master and stronger than most in his
+                  connection with the Force. Small in size but wise and
+                  powerful, he trained Jedi for over 800 years, playing integral
+                  roles in the Clone Wars, the instruction of Luke Skywalker,
+                  and unlocking the path to immortality.
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card">
+        <img
+          src="../assets/images/Boba Fett.jpg"
+          class="card-img-top"
+          alt="Boba Fett"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Boba Fett</h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-danger"
+            data-toggle="modal"
+            data-target="#exampleModalCenter"
+          >
+            Profile
+          </button>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModalCenter"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="exampleModalCenterTitle"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalCenterTitle">
+                    Bio:
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  With his customized Mandalorian armor, deadly weaponry, and
+                  silent demeanor, Boba Fett was one of the most feared bounty
+                  hunters in the galaxy. A genetic clone of his “father,” bounty
+                  hunter Jango Fett, Boba learned combat and martial skills from
+                  a young age. Over the course of his career, which included
+                  contracts for the Empire and the criminal underworld, he
+                  became a legend.
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card">
+        <img
+          src="../assets/images/Princess Leia.jpg"
+          class="card-img-top"
+          alt="Princess Leia"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Princess Leia / Leia Organa</h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-success"
+            data-toggle="modal"
+            data-target="#exampleModalCenter"
+          >
+            Profile
+          </button>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModalCenter"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="exampleModalCenterTitle"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalCenterTitle">
+                    Bio:
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  Princess Leia Organa was one of the Rebel Alliance’s greatest
+                  leaders, fearless on the battlefield and dedicated to ending
+                  the tyranny of the Empire. Daughter of Padmé Amidala and
+                  Anakin Skywalker, sister of Luke Skywalker, and with a soft
+                  spot for scoundrels, Leia ranks among the galaxy’s great
+                  heroes. But life under the New Republic has not been easy for
+                  Leia. Sidelined by a new generation of political leaders, she
+                  struck out on her own to oppose the First Order as founder of
+                  the Resistance. These setbacks in her political career have
+                  been accompanied by more personal losses.
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../assets/javascript/script.js"></script>
+  </body>
+</html>
